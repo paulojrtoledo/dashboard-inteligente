@@ -1,6 +1,6 @@
 🚀 Dashboard Inteligente 
 
-![Descrição da imagem](https://drive.google.com/file/d/18vIVu9NI4qpUqt6xI4UtkljvBNyzeadY/view?usp=sharing)
+![Descrição da Imagem](frontend/src/assets/dashboard.png)
 
 
 Status: Em Desenvolvimento Ativo ⚠️
