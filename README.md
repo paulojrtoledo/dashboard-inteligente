@@ -16,8 +16,8 @@ IA: Groq API + Llama 3 (OpenAI compatible)
 
 Deploy: Em desenvolvimento
 
-⚠️ Status do Desenvolvimento
 ✅ Funcionalidades Implementadas
+
 CRUD completo de vendas
 
 Gráficos interativos com Chart.js
@@ -31,6 +31,7 @@ API RESTful com Express.js
 Interface responsiva
 
 🚧 Funcionalidades em Desenvolvimento
+
 Sistema de autenticação de usuários
 
 Dashboard responsivo para mobile
@@ -44,6 +45,7 @@ Integração com n8n para automações
 Testes unitários e e2e
 
 🎯 Pré-requisitos
+
 Node.js 18+
 
 npm ou yarn
@@ -53,6 +55,7 @@ Conta no Firebase
 Chave de API Groq ou OpenAI
 
 ⚡ Como Executar
+
 1. Clone o repositório
 bash
 git clone https://github.com/paulojrtoledo/dashboard-inteligente.git
@@ -88,6 +91,7 @@ OPENAI_API_KEY=sua_chave_openai_aqui
 # Firebase
 FIREBASE_PROJECT_ID=seu-project-id
 📦 Estrutura do Projeto
+
 text
 dashboard-inteligente/
 ├── backend/
@@ -105,6 +109,7 @@ dashboard-inteligente/
     │   └── App.jsx
     └── package.json
 🤝 Como Contribuir
+
 Este é um projeto em desenvolvimento ativo! Contribuições são bem-vindas:
 
 Fork o projeto
@@ -129,6 +134,7 @@ Otimizar performance do dashboard
 Adicionar dark mode
 
 ⚠️ Limitações Atuais
+
 Interface ainda não otimizada para mobile
 
 Ausência de sistema de cache
@@ -138,9 +144,11 @@ Limitações na gestão de erro
 Documentação em progresso
 
 📄 Licença
+
 Este projeto está sob a licença MIT. Veja o arquivo LICENSE para detalhes.
 
 👨‍💻 Desenvolvedor
+
 Seu Nome - GitHub | LinkedIn
 
 Nota: Este é um projeto em desenvolvimento ativo. Novas funcionalidades são adicionadas regularmente. ⚡
