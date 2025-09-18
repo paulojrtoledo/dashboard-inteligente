@@ -2,7 +2,7 @@
 import { Bar } from 'react-chartjs-2';
 import { chartOptions, chartColors } from './ChartConfig';
 
-function ChartVendas({ data, onDeleteVenda }) { // ← Adicione onDeleteVenda como prop
+function ChartVendas({ data, onDeleteVenda }) { // ← Adicionar onDeleteVenda como prop
   if (!data || data.length === 0) {
     return (
       <div style={{ width: '100%', maxWidth: '800px', margin: '0 auto', textAlign: 'center', padding: '40px' }}>
@@ -17,7 +17,7 @@ function ChartVendas({ data, onDeleteVenda }) { // ← Adicione onDeleteVenda co
     datasets: [
       {
         label: 'Valor Total em Vendas (R$)',
-        data: data.map(venda => venda.valor * (venda.quantidade || 1)), // ✅ CORRIGIDO!
+        data: data.map(venda => venda.valor * (venda.quantidade || 1)), 
         backgroundColor: chartColors,
       },
     ],

@@ -1,4 +1,4 @@
-// 1️⃣ Importações
+// Importações
 import express from "express";
 import dotenv from "dotenv";
 import admin from "firebase-admin";
@@ -6,14 +6,14 @@ import fs from "fs";
 import Groq from "groq-sdk";
 import cors from 'cors';
 
-// 2️⃣ Configurar variáveis de ambiente
+// Configurar variáveis de ambiente
 dotenv.config();
 
-// 3️⃣ Inicializar o Express
+// Inicializar o Express
 const app = express();
 const PORT = process.env.PORT || 5000;
 
-// 4️⃣ Middleware para JSON
+// Middleware para JSON
 app.use(express.json());
 
 // backend/server.js
@@ -40,7 +40,7 @@ app.use((req, res, next) => {
   next();
 });
 
-// 5️⃣ Inicializar Firebase / Firestore
+// Inicializar Firebase / Firestore
 const serviceAccount = JSON.parse(
   fs.readFileSync("./config/firebaseKey.json", "utf8")
 );
@@ -56,7 +56,7 @@ admin.initializeApp({
 
 const db = admin.firestore();
 
-// 6️⃣ Rotas
+//  Rotas
 
 // Rota teste
 app.get("/", (req, res) => {
@@ -131,7 +131,7 @@ app.get("/insights", async (req, res) => {
 
     const insightGerado = completion.choices[0].message.content;
 
-    // ✅ SALVANDO NO FIRESTORE
+    // SALVANDO NO FIRESTORE
     const insightRef = await db.collection("insights").add({
       conteudo: insightGerado,
       modelo: "Llama 3.3 70B (Groq)",
@@ -165,7 +165,7 @@ app.delete("/vendas/:id", async (req, res) => {
   }
 });
 
-// 7️⃣ Iniciar servidor
+// Iniciar servidor
 app.listen(PORT, () => {
   console.log(`Servidor rodando na porta ${PORT}`);
 });
