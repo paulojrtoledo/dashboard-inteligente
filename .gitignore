@@ -1,0 +1,30 @@
+# Dependências
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Arquivos de ambiente (NUNCA subir para o GitHub)
+.env
+.env.local
+.env.*.local
+
+# Build do React
+frontend/build/
+
+# Cache
+.cache/
+dist/
+tmp/
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+.env
+**/.env
+
+backend/config/firebaseKey.json
