@@ -1,8 +1,10 @@
 🚀 Dashboard Inteligente 
+
 Status: Em Desenvolvimento Ativo ⚠️
 Um dashboard analítico com IA para gestão de vendas e insights inteligentes.
 
 📋 Sobre o Projeto
+
 Dashboard moderno desenvolvido com React + Node.js + Firebase que utiliza IA generativa para analisar dados de vendas e fornecer insights estratégicos em tempo real.
 
 🛠️ Stack Tecnológica
