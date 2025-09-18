@@ -1,5 +1,8 @@
 🚀 Dashboard Inteligente 
 
+![Descrição da imagem](https://drive.google.com/file/d/18vIVu9NI4qpUqt6xI4UtkljvBNyzeadY/view?usp=sharing)
+
+
 Status: Em Desenvolvimento Ativo ⚠️
 Um dashboard analítico com IA para gestão de vendas e insights inteligentes.
 
